@@ -1,0 +1,39 @@
+
+.form{
+      /* width: 50%; */
+      /* border: solid 1px yellow; */
+      /* margin-left: 20%; */
+      /* margin-top: 20%; */
+      text-align: center;
+      
+}
+
+input{
+      border:5px solid #EEBC1D ;
+      /* margin-top: 30px; */
+      width: 70%;
+      height: 10rem;
+      /* margin-left: 20%; */
+      /* margin-top: 20%; */
+      margin: 16%;
+      font-size: 6rem;
+      margin-bottom: -20rem;
+      color: #EEBC1D;
+      border-radius: 29px;
+      background-color: transparent;
+     
+      
+}
+button {
+      background-color:#EEBC1D;
+      margin: 9rem;
+      width: 9rem;
+      height: 5rem;
+      border-radius: 15px;
+      color:black;
+      font-size: 29px;
+      
+}
+/* *{
+      background-color: red;
+  } */

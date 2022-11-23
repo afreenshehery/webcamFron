@@ -1,0 +1,33 @@
+<!-- <p>allshow works!</p>
+<!-- <img [src]="store1" /> -->
+<!-- <div *ngFor="let item of data">
+  <div>
+    <img [src]="item.image" />
+  </div>
+  <div>
+    <h1>{{ item.name }}</h1>
+    <h2>{{ item.email }}</h2>
+  </div>
+</div>-->
+
+<!-- <div class="full row" *ngFor="let item of data">
+  <div class="col-2">
+    <div class="snapshot div1">
+      <img [src]="item.image" />
+    </div>
+    <div class="div2">
+      <h1>{{ item.name }}</h1>
+      <h1>{{ item.email }}</h1>
+    </div>
+  </div>
+</div> -->
+<div class="full">
+  <div class="row" *ngFor="let item of data">
+    <div id="all" class="col-6">
+      <img [src]="item.image" />
+      <div class="h1">
+        <h1>{{ item.name }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
